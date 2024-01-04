@@ -1,6 +1,7 @@
 import Footer from "./Compomnents/Footer"
 import Navbar from "./Compomnents/Navbar"
 import About from "./Pages/About"
+import Contact from "./Pages/Contact"
 import Education from "./Pages/Education"
 import Home from "./Pages/Home"
 import Project from "./Pages/Project"
@@ -21,6 +22,7 @@ function App() {
             <Project/>
             <Education/>
             <About/>
+            <Contact/>
             <Footer/>
           </div>
       </div>
