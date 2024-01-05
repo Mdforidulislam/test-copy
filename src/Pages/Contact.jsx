@@ -32,10 +32,10 @@ const Contact = () => {
             <div className='container mx-auto'>
                 <h2 className='text-3xl font-bold mb-8'>Contact</h2>
 
-                <div className='flex'>
+                <div className='block sm:flex'>
                     {/* Left side with text */}
-                    <div className='mr-8 w-2/4'>
-                    <p className='text-gray-700'>
+                    <div className='mr-8 sm:w-2/4'>
+                    <p className='text-white'>
                             Have a question or want to connect? Feel free to drop me a message using the form below. I'll get back to you as soon as possible.
                         </p>
 
