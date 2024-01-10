@@ -7,7 +7,7 @@ const Skills = () => {
            
             <div className=' mt-6 '>
              
-             <div className='flex flex-wrap gap-6 '>
+             <div className='flex flex-wrap gap-6 justify-center '>
 
                 <span><img className='w-[150px] h-[150px] ' src="https://raw.githubusercontent.com/tandpfun/skill-icons/af89bcc5e478013caaa514c31a3789f25e818193/icons/React-Dark.svg" alt="react" /></span>
 

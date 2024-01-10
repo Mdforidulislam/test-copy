@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import images from '../assets/logo.jpg'
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
+import images from '../assets/logo.jpg';
 import { FiMenu } from "react-icons/fi";
 import NavItem from './NavItem';
 import MobileNav from './MobileNav';
@@ -14,9 +10,9 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
     console.log(open);
     return (
-        <div className=' flex sm:block justify-between bg-[#2D3250] p-4 w-full  justify-items-stretch '>
+        <div className=' flex sm:block justify-between bg-[#2D3250] p-4 w-full  items-center sm:h-screen h-[100px]'>
             {/* logo section */}
-            <div className='flex justify-center'>
+            <div className='flex justify-center '>
                 <img className='sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full mb-5 ' src={images} alt="" />
             </div>
             {/* mobile section nave items */}

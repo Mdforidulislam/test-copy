@@ -12,11 +12,11 @@ function App() {
 
   return (
     <>
-      <div className="block sm:flex gap-4 px-5 py-3 bg-[#1D2B53] text-white no-scrollbar">
-          <div>
+      <div className="block sm:flex gap-4  bg-[#1D2B53] text-white no-scrollbar">
+          <div className="">
             <Navbar/>
           </div>
-          <div className=" overflow-y-auto max-h-screen w-full no-scrollbar">
+          <div className=" overflow-y-auto max-h-screen w-full px-5 py-2f no-scrollbar">
             <Home/>
             <Skills/>
             <Project/>
